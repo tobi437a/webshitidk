@@ -8,7 +8,6 @@ mt.__namecall = newcclosure(function(self, ...)
     local args = {...}
 
     if string.lower(methodName) == "kick" and self == game.Players.LocalPlayer then
-        warn("Attempt to kick LocalPlayer prevented.")
         return
     end
 
